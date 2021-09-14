@@ -1,0 +1,6 @@
+easydict
+scipy
+lmdb
+natsort
+courlor
+tensorflow==2.4.1
