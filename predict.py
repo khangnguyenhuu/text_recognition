@@ -4,12 +4,10 @@ import time
 import numpy as np
 import torch
 import cv2
-# from ISR.models import RDN, RRDN
 
 from src.utils import get_config
 from src.libs.CRAFT.craft import CRAFT
 from src.libs.DeepText.Deeptext_pred import Deeptext_predict, load_model_Deeptext
-# from src.libs.super_resolution.improve_resolution import improve_resolution
 
 from src.src import craft_text_detect, load_model_Craft
 from src.src import yolo_detect
