@@ -16,6 +16,8 @@ python3 -m venv myEnv
 source myEnv/bin/activate
 # then install dependencies
 pip install -r requirements.txt
+# if you install directly you need to download model
+gdown --id 1C9LBHkhu1IzQJHaq0vz5SdqKkC_vAD56
 
 # run
 python3 predict.py
